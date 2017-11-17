@@ -4,8 +4,8 @@ print("----------")
 print("Software-PWM for stepper-motors by Marek Völckel")
 print("----------")
 '''Variables'''
-a = (input("Frequenz eingeben:"))
-e = (input("DutyCicle eingeben:"))
+a = float(input("Frequenz eingeben:"))
+e = float(input("DutyCicle eingeben:"))
 y = 26
 
 GPIO.setmode(GPIO.BOARD)
