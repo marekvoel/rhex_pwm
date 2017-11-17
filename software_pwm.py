@@ -1,3 +1,8 @@
+__author__  = "Marek Völckel"
+__version__ = "1.4.1"
+__status__  = "Development"
+
+
 #import
 import time
 import RPi.GPIO as GPIO
@@ -10,8 +15,8 @@ y = 26 #PWM-PIN
 #info
 print("------------------------------------------------")
 print("Software-PWM for stepper-motors by Marek Völckel")
-print("----> Version 1.4 (WORKING)")
-print("----> ")
+print("----> Version 1.4.1")
+print("----> https://github.com/marekvoel/rhex_pwm/")
 print("------------------------------------------------")
 print("")
 print("")
